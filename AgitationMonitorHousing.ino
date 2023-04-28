@@ -32,7 +32,7 @@ Revision history:
 #include <SD.h>  // Include the SD library for writing to an SD card
 
 
-// UPDATE THESE SIX VALUES BEFORE CREATING YOUR SD CARD FILE
+/*
 unsigned int year = 2015;
 byte month = 6;
 byte day = 18;
@@ -46,7 +46,7 @@ void dateTime(uint16_t* date, uint16_t* time) {
   *date = FAT_DATE(year, month, day);
   *time = FAT_TIME(hour, minute, second);
 }
-
+*/
 
 // Include necessary libraries
 #include "Arduino.h"
